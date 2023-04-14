@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(80, 44, 0);
+}
+
+body {
+    background-image: linear-gradient(to bottom, white, #e7e1cf);
+}
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    background-color: rgb(80, 44, 0);
+    margin: 0% 25%;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.holder {
+    flex-direction: row;
+    padding: 40px;
+}
+
+.logo {
+    float: left;
+    display: inline;
+    margin: 30px 0px 30px 60px;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(120, 66, 0);
+    border-radius: 40px;
+    font-size: 13pt;
+    letter-spacing: 1px;
+}
+
+/* Article */
+.class2 {
+    box-sizing: border-box;
+    margin: auto 0px;
+    background-color: #ebddb7;
+    padding: 170px 60px 0px 60px;
+    margin: 0% 25%;
+}
+
+.st1 {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 660px;
+    float: right;
+    margin: 0px 0px 30px 30px;
+}
+
+/* Catalog */
+.class3 {
+    box-sizing: border-box;
+    margin: auto 0px;
+    background-color: #ebddb7;
+    padding: 30px 30px 0px 60px;
+    margin: 0% 25%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.st2 {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    float: center;
+    margin: 0px 30px 60px 0px;
+    flex: 1;
+}
+
+.button {
+    letter-spacing: 3px;
+    font-size: 16px;
+    border: 1pt solid rgb(80, 44, 0);
+    border-radius: 20px;
+    background-color: white;
+    width: 80px;
+    float: center;
+    padding: 5px 20px;
+}
+
+/* Footer */
+.Footer {
+    background-color: #ebddb7;
+    box-sizing: border-box;
+    margin: 0% 25%;
+    display: flex;
+}
+
+/* Title */
+h1 {
+    letter-spacing: 55px;
+    font-size: 50px;
+    text-align: left;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    text-align: center
+}
+
+/* List */
+
+dt {
+    letter-spacing: 3px;
+    line-height: 250%;
+    font-size: larger;
+    font-weight: 600;
+}
+
+dd {
+    text-align: justify;
+    text-indent: 32px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 32px;
+    margin: 5px 0px 20px 0px;
+}
+
+/* Linking */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(80, 44, 0);
+}
